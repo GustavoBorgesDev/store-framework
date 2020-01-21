@@ -1,8 +1,8 @@
 .infoCardHeadline {
     font-family: serif;
     font-size: 2.25rem;
-    font-weight: normal;
-    color: gray;
+    font-weight: bold;
+    color: black;
     border: 2px solid black;
     padding: 24px;
 }
@@ -19,22 +19,16 @@
     border: transparent;
 }
 
-.infoCardContainer--vintage {
-    background-color: #EDCFD1
-}
-
-.infoCardContainer--vintage,
-.infoCardContainer--metal {
+.infoCardContainer {
     max-width: 1260px;
     margin: 0 auto;
     padding: 0;
 }
 
-.infoCardContainer--metal {
-    background-color: #e1e1e1;
+.infoCardContainer--vintage {
+    background-color: #EDCFD1
 }
 
-.infoCardHeadline {
-    color: black;
-    font-weight: bold;
+.infoCardContainer--metal {
+    background-color: #e1e1e1;
 }
