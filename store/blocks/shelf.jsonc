@@ -6,12 +6,14 @@
 		  	"orderBy": "OrderByTopSaleDESC",
 		  	"paginationDotsVisibility": "desktopOnly",
 		  	"productList": {
+				"showTitle": true,
 				"maxItems": 8,
 				"itemsPerPage": 4,
 				"minItemsPerPage": 1,
 				"scroll": "BY_PAGE",
 				"arrows": true,
-				"titleText": "Top sellers"
+				"titleText": "Promoções",
+				"gap": "ph7"
 			}
 		}
 	},
