@@ -31,7 +31,7 @@
 	},
 	"product-images": {
 		"props": {
-			"showNavigationArrows": false
+			"showNavigationArrows": true
 		}
 	},
 	"product-name": {
@@ -43,13 +43,13 @@
 	"product-price": {
 		"props": {
 			"showSavings": true,
-      		"showListPrice": false
+      		"showListPrice": true
 		}
 	},
 	"buy-button#product": {
 		"props": {
 			"isOneClickBuy": true,
-			"showTooltipOnSkuNotSelected": false
+			"showTooltipOnSkuNotSelected": true
 		}
 	}
 }
