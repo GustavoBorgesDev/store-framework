@@ -80,7 +80,7 @@
 			"initialSelection": "1",
 			"showVariationsLabels": true,
 			"showVariationsErrorMessage": true,
-			"showValueForVariation": "image"
+			"showValueForVariation": "select"
 		}
 	}
 }
