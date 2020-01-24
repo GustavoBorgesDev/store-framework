@@ -23,7 +23,7 @@
             "logo",
             "header-spacer",
             "search-bar",
-            "minicart.v2",
+            "minicart",
             "login"
         ],
         "props": {
@@ -43,8 +43,7 @@
         "children": [
             "logo",
             "header-spacer",
-            "search-bar",
-            "minicart.v2",
+            "minicart",
             "login"
         ],
         "props": {
