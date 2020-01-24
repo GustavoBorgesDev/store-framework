@@ -12,7 +12,7 @@
     },
     "flex-layout.col#img": {
         "props": {
-            "paddingRight": 3,
+            "paddingRight": 4,
             "horizontalAlign": "right"
         },
         "children": [
