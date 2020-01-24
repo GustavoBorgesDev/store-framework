@@ -73,7 +73,7 @@
     },
     "flex-layout.col#img": {
         "props": {
-            "paddingRight": 4,
+            "paddingRight": 3,
             "horizontalAlign": "right"
         },
         "children": [
