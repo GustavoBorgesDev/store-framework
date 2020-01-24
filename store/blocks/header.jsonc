@@ -47,7 +47,8 @@
         ],
         "props": {
             "sticky": true,
-            "inverted":true
+            "inverted": true,
+            "fullWidth": false
         }
     },
     "header-row#search": {
