@@ -41,25 +41,26 @@
     },
     "header-row#main-mobile": {
         "children": [
-            "logo",
-            "header-spacer",
-            "search-bar",
-            "minicart",
-            "login"
+          "logo",
+          "header-spacer",
+          "minicart",
+          "login"
         ],
+      
         "props": {
-            "sticky": true,
-            "inverted": true
+          "sticky": true,
+          "inverted":true
         }
-    },
-    "header-row#search": {
+      },
+      
+      "header-row#search": {
         "children": [
-            "search-bar"
+          "search-bar"
         ],
         "props": {
-            "sticky": true
+          "sticky": true
         }
-    },
+      },
     "login":{
         "props": {
             "showIconProfile": true,
