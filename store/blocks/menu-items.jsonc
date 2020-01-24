@@ -1,13 +1,18 @@
 {
-  	"menu-item#major-appliances": {
+	// Primeira Categoria  
+	"menu-item#major-appliances": {
     	"props": {
 			"type": "custom",
 			"highlight": true,
 			"itemProps": {
 				"text": "Major Aplliances"
 			}
-    	}
-  	},
+		},
+		"blocks": [
+			"vtex.menu@2.x:submenu#major"
+		]
+	},
+	// Segunda Categoria  
   	"menu-item#small-appliances": {
       	"props": {
 			"type": "category",
@@ -16,8 +21,12 @@
 				"categoryId": 2, 
 				"text": "Small Appliances"
 			}
-    	}
-  	},
+    	},
+		"blocks": [
+			"vtex.menu@2.x:submenu#small"
+		]
+	},
+	// Terceira Categoria  
   	"menu-item#electronics": {
       	"props": {
 			"type": "category",
@@ -26,7 +35,10 @@
 				"categoryId": 3, 
 				"text": "Electronics"
 			}
-    	}
+    	},
+		"blocks": [
+			"vtex.menu@2.x:submenu#electronics"
+		]
   	},
   	"menu-item#refrigerators": {
       	"props": {

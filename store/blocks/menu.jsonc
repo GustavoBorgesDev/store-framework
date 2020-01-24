@@ -1,4 +1,5 @@
 {
+    // PRINCIPAL (Bloco que engloba os menus)
     "vtex.menu@2.x:menu#categories": {
         "children": [
             "menu-item#major-appliances",
@@ -9,6 +10,7 @@
             "orientation": "horizontal"
         }
     },
+    // Primeira Categoria
     "vtex.menu@2.x:submenu#major": {
         "children": [
             "vtex.menu@2.x:menu#major"
@@ -24,11 +26,7 @@
             "orientation": "vertical"
         }
     },
-    "vtex.menu@2.x:submenu#electronics": {
-        "children": [
-            "vtex.menu@2.x:menu#electronics"
-        ]
-    },
+    // Segunda Categoria
     "vtex.menu@2.x:submenu#small": {
         "children": [
             "vtex.menu@2.x:menu#small"
@@ -43,6 +41,12 @@
         "props": {
             "orientation": "vertical"
         }
+    },
+    // Terceira Categoria
+    "vtex.menu@2.x:submenu#electronics": {
+        "children": [
+            "vtex.menu@2.x:menu#electronics"
+        ]
     },
     "vtex.menu@2.x:menu#electronics": {
         "children": [
